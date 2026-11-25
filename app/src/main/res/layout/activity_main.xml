@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⭐ звёзд"
+        android:textSize="18sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="⭐"
+        android:textSize="80sp"
+        android:backgroundTint="@color/gold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvPerClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Клик: +1"
+        android:textSize="16sp"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:id="@+id/tvPerSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Авто: +0 / сек"
+        android:textSize="16sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnUpgradeClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡ Клик +1"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/accent" />
+
+    <Button
+        android:id="@+id/btnUpgradeAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🤖 Авто +1"
+        android:backgroundTint="@color/accent" />
+
+</LinearLayout>
